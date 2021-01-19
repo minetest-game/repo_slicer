@@ -36,3 +36,15 @@ jobs:
 
     - name: player_api
       run: ./slice.sh player_api
+
+    - name: boats
+      run: ./slice.sh boats
+
+    - name: bones
+      run: ./slice.sh bones
+
+    - name: bucket
+      run: ./slice.sh bucket
+
+    - name: doors
+      run: ./slice.sh doors
