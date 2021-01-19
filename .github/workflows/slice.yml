@@ -29,3 +29,6 @@ jobs:
 
     - name: xpanes
       run: ./slice.sh xpanes
+
+    - name: player_api
+      run: ./slice.sh player_api
