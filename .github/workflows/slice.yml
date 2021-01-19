@@ -1,0 +1,19 @@
+name: slice
+
+on:
+  push:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2.3.4
+
+    - name: slice
+      run: ./slice.sh
+      env:
+        access_token: ${{ secrets.ACCESS_TOKEN }}
