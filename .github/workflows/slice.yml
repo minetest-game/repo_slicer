@@ -2,8 +2,8 @@ name: slice
 
 on:
   push:
-#  schedule:
-#    - cron:  '0 * * * *'
+  schedule:
+    - cron:  '0 * * * *'
 
 jobs:
   build:
