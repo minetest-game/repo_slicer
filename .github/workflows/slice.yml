@@ -7,16 +7,22 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
+    env:
+      access_token: ${{ secrets.ACCESS_TOKEN }}
     steps:
     - uses: actions/checkout@v2.3.4
+
+    - name: smoke_test
+      run: |
+       git clone https://github.com/minetest-game/default.git
+       cd default
+       git push https://BuckarooBanzay:${access_token}@github.com/minetest-game/default.git
 
     - name: checkout
       run: git clone https://github.com/minetest/minetest_game
 
     - name: default
-      env:
-        access_token: ${{ secrets.ACCESS_TOKEN }}
       run: ./slice.sh default
 
     - name: beds
