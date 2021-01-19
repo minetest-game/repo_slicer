@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 cd minetest_game
 git subtree split -P mods/$1 -b $1
