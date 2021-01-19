@@ -7,15 +7,13 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-20.04
-    env:
-      access_token: ${{ secrets.ACCESS_TOKEN }}
-
     steps:
     - uses: actions/checkout@v2.3.4
 
     - name: checkout
+      env:
+        access_token: ${{ secrets.ACCESS_TOKEN }}
       run: git clone https://github.com/minetest/minetest_game
 
     - name: default
