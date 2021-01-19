@@ -8,8 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-      env:
-        access_token: ${{ secrets.ACCESS_TOKEN }}
+    env:
+      access_token: ${{ secrets.ACCESS_TOKEN }}
     steps:
     - uses: actions/checkout@v2.3.4
 
