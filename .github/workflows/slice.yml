@@ -48,3 +48,9 @@ jobs:
 
     - name: doors
       run: ./slice.sh doors
+
+    - name: farming
+      run: ./slice.sh farming
+
+    - name: flowers
+      run: ./slice.sh flowers
