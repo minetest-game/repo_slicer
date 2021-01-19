@@ -1,15 +1,15 @@
-#!/bin/bash
+#!/bin/sh
 
 git clone https://github.com/minetest/minetest_game
 cd minetest_game
 
-function split(){
+split() {
 	echo "Splitting $1"
-	git subtree split -P mods/$1 -b $1
-	git push https://${access_token}@github.com/minetest-game/$1 $1
+	git subtree split -P "mods/$1" -b "$1"
+	git push "https://${access_token}@github.com/minetest-game/$1" "$1"
 }
 
-split default
-split beds
-split dye
-split xpanes
+split "default"
+split "beds"
+split "dye"
+split "xpanes"
