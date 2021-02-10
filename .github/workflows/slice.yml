@@ -54,3 +54,6 @@ jobs:
 
     - name: flowers
       run: ./slice.sh flowers
+
+    - name: screwdriver
+      run: ./slice.sh screwdriver
