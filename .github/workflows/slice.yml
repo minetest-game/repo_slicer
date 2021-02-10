@@ -25,6 +25,9 @@ jobs:
     - name: default
       run: ./slice.sh default
 
+    - name: map
+      run: ./slice.sh map
+
     - name: vessels
       run: ./slice.sh vessels
 
