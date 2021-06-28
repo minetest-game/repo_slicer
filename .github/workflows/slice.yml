@@ -28,6 +28,9 @@ jobs:
     - name: creative
       run: ./slice.sh creative
 
+    - name: sfinv
+      run: ./slice.sh sfinv
+
     - name: carts
       run: ./slice.sh carts
 
