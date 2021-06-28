@@ -25,6 +25,9 @@ jobs:
     - name: default
       run: ./slice.sh default
 
+    - name: creative
+      run: ./slice.sh creative
+
     - name: carts
       run: ./slice.sh carts
 
