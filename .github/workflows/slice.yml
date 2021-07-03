@@ -25,6 +25,9 @@ jobs:
     - name: default
       run: ./slice.sh default
 
+    - name: stairs
+      run: ./slice.sh stairs
+
     - name: creative
       run: ./slice.sh creative
 
