@@ -25,6 +25,12 @@ jobs:
     - name: default
       run: ./slice.sh default
 
+    - name: fireflies
+      run: ./slice.sh fireflies
+
+    - name: wool
+      run: ./slice.sh wool
+
     - name: stairs
       run: ./slice.sh stairs
 
