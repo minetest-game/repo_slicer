@@ -25,6 +25,45 @@ jobs:
     - name: default
       run: ./slice.sh default
 
+    - name: binoculars
+      run: ./slice.sh binoculars
+
+    - name: butterflies
+      run: ./slice.sh butterflies
+
+    - name: dungeon_loot
+      run: ./slice.sh dungeon_loot
+
+    - name: env_sounds
+      run: ./slice.sh env_sounds
+
+    - name: fire
+      run: ./slice.sh fire
+
+    - name: game_commands
+      run: ./slice.sh game_commands
+
+    - name: give_initial_stuff
+      run: ./slice.sh give_initial_stuff
+
+    - name: mtg_craftguide
+      run: ./slice.sh mtg_craftguide
+
+    - name: sethome
+      run: ./slice.sh sethome
+
+    - name: spawn
+      run: ./slice.sh spawn
+
+    - name: tnt
+      run: ./slice.sh tnt
+
+    - name: walls
+      run: ./slice.sh walls
+
+    - name: weather
+      run: ./slice.sh weather
+
     - name: fireflies
       run: ./slice.sh fireflies
 
