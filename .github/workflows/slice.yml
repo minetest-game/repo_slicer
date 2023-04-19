@@ -120,3 +120,5 @@ jobs:
 
     - name: screwdriver
       run: ./slice.sh screwdriver
+
+    - uses: gautamkrishnar/keepalive-workflow@v1
