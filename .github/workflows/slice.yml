@@ -121,4 +121,7 @@ jobs:
     - name: screwdriver
       run: ./slice.sh screwdriver
 
+    - name: keys
+      run: ./slice.sh keys
+
     - uses: gautamkrishnar/keepalive-workflow@v1
