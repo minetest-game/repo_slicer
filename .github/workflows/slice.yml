@@ -124,5 +124,3 @@ jobs:
 
     - name: keys
       run: ./slice.sh keys
-
-    - uses: gautamkrishnar/keepalive-workflow@v2
