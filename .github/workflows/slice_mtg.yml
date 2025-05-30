@@ -1,4 +1,4 @@
-name: slice
+name: slice_mtg
 
 on:
   push:
@@ -24,103 +24,103 @@ jobs:
       run: git clone https://github.com/minetest/minetest_game
 
     - name: default
-      run: ./slice.sh default
+      run: ./slice_mtg.sh default
 
     - name: binoculars
-      run: ./slice.sh binoculars
+      run: ./slice_mtg.sh binoculars
 
     - name: butterflies
-      run: ./slice.sh butterflies
+      run: ./slice_mtg.sh butterflies
 
     - name: dungeon_loot
-      run: ./slice.sh dungeon_loot
+      run: ./slice_mtg.sh dungeon_loot
 
     - name: env_sounds
-      run: ./slice.sh env_sounds
+      run: ./slice_mtg.sh env_sounds
 
     - name: fire
-      run: ./slice.sh fire
+      run: ./slice_mtg.sh fire
 
     - name: game_commands
-      run: ./slice.sh game_commands
+      run: ./slice_mtg.sh game_commands
 
     - name: give_initial_stuff
-      run: ./slice.sh give_initial_stuff
+      run: ./slice_mtg.sh give_initial_stuff
 
     - name: mtg_craftguide
-      run: ./slice.sh mtg_craftguide
+      run: ./slice_mtg.sh mtg_craftguide
 
     - name: sethome
-      run: ./slice.sh sethome
+      run: ./slice_mtg.sh sethome
 
     - name: spawn
-      run: ./slice.sh spawn
+      run: ./slice_mtg.sh spawn
 
     - name: tnt
-      run: ./slice.sh tnt
+      run: ./slice_mtg.sh tnt
 
     - name: walls
-      run: ./slice.sh walls
+      run: ./slice_mtg.sh walls
 
     - name: weather
-      run: ./slice.sh weather
+      run: ./slice_mtg.sh weather
 
     - name: fireflies
-      run: ./slice.sh fireflies
+      run: ./slice_mtg.sh fireflies
 
     - name: wool
-      run: ./slice.sh wool
+      run: ./slice_mtg.sh wool
 
     - name: stairs
-      run: ./slice.sh stairs
+      run: ./slice_mtg.sh stairs
 
     - name: creative
-      run: ./slice.sh creative
+      run: ./slice_mtg.sh creative
 
     - name: sfinv
-      run: ./slice.sh sfinv
+      run: ./slice_mtg.sh sfinv
 
     - name: carts
-      run: ./slice.sh carts
+      run: ./slice_mtg.sh carts
 
     - name: map
-      run: ./slice.sh map
+      run: ./slice_mtg.sh map
 
     - name: vessels
-      run: ./slice.sh vessels
+      run: ./slice_mtg.sh vessels
 
     - name: beds
-      run: ./slice.sh beds
+      run: ./slice_mtg.sh beds
 
     - name: dye
-      run: ./slice.sh dye
+      run: ./slice_mtg.sh dye
 
     - name: xpanes
-      run: ./slice.sh xpanes
+      run: ./slice_mtg.sh xpanes
 
     - name: player_api
-      run: ./slice.sh player_api
+      run: ./slice_mtg.sh player_api
 
     - name: boats
-      run: ./slice.sh boats
+      run: ./slice_mtg.sh boats
 
     - name: bones
-      run: ./slice.sh bones
+      run: ./slice_mtg.sh bones
 
     - name: bucket
-      run: ./slice.sh bucket
+      run: ./slice_mtg.sh bucket
 
     - name: doors
-      run: ./slice.sh doors
+      run: ./slice_mtg.sh doors
 
     - name: farming
-      run: ./slice.sh farming
+      run: ./slice_mtg.sh farming
 
     - name: flowers
-      run: ./slice.sh flowers
+      run: ./slice_mtg.sh flowers
 
     - name: screwdriver
-      run: ./slice.sh screwdriver
+      run: ./slice_mtg.sh screwdriver
 
     - name: keys
-      run: ./slice.sh keys
+      run: ./slice_mtg.sh keys

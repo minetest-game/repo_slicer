@@ -1,0 +1,21 @@
+name: slice_devtest
+
+on:
+  push:
+  schedule:
+    - cron:  '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      access_token: ${{ secrets.ACCESS_TOKEN }}
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: checkout
+      run: git clone https://github.com/luanti-org/luanti
+
+    - name: devtest
+      run: ./slice_devtest.sh
