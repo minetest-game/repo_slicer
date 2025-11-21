@@ -12,7 +12,7 @@ jobs:
     env:
       access_token: ${{ secrets.ACCESS_TOKEN }}
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
 
     - name: smoke_test
       run: |
